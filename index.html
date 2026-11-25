@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pranav Raj's personal portfolio showcasing skills, projects, and contact information.">
+  <meta name="theme-color" content="#0b1220">
+  <meta property="og:title" content="Pranav Raj | Portfolio">
+  <meta property="og:description" content="B.Tech CSE student exploring programming, web development, and practical projects.">
+  <title>Pranav Raj | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Pranav Raj home">PR<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> B.Tech CSE Core <span class="eyebrow-divider">/</span> Student Developer</p>
+        <h1 id="hero-title">Hi, I'm <span class="accent-text">Pranav Raj.</span></h1>
+        <p class="hero-role">Aspiring <span class="changing-role">Software Developer</span></p>
+        <p class="hero-description">I enjoy exploring how technology works and turning ideas into useful, intuitive, and well-designed digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-note">
+          <span class="note-line"></span>
+          <span>Curious mind. Consistent learning. Practical projects.</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Portrait of Pranav Raj">
+        <div class="portrait-halo"></div>
+        <div class="portrait-orbit orbit-one"></div>
+        <div class="portrait-orbit orbit-two"></div>
+        <div class="portrait-frame">
+          <img
+            class="profile-photo"
+            src="pranav-raj-photo.jpeg"
+            alt="Pranav Raj wearing a light T-shirt, photographed against a plain light background"
+            width="720"
+            height="1280"
+            fetchpriority="high"
+            decoding="async"
+          >
+        </div>
+        <div class="photo-caption">
+          <span class="caption-mark">PR</span>
+          <span><strong>Pranav Raj</strong><small>B.Tech CSE Core</small></span>
+        </div>
+        <div class="code-chip chip-top">&lt;code /&gt;</div>
+        <div class="code-chip chip-bottom"><span class="chip-live-dot"></span> Always learning</div>
+        <span class="spark spark-one" aria-hidden="true">✦</span>
+        <span class="spark spark-two" aria-hidden="true">✧</span>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div>
+          <p class="section-kicker">A little introduction</p>
+          <h2 class="section-title" id="about-title">About <span class="accent-text">Me</span></h2>
+        </div>
+        <div class="about-content">
+          <p>I'm Pranav Raj, a B.Tech Computer Science and Engineering student at K.R. Mangalam University. I am building a strong foundation in programming, web development, and problem-solving.</p>
+          <p>I like learning by creating small projects, experimenting with code, and improving my work step by step. My current focus is strengthening my programming fundamentals and developing responsive websites.</p>
+          <div class="about-facts">
+            <div class="fact"><strong>01</strong><span>Learn by doing</span></div>
+            <div class="fact"><strong>02</strong><span>Build useful projects</span></div>
+            <div class="fact"><strong>03</strong><span>Keep improving</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <div>
+          <p class="section-kicker">What I'm learning</p>
+          <h2 class="section-title" id="skills-title">My <span class="accent-text">Skills</span></h2>
+        </div>
+        <p class="section-intro">Tools and technologies I am learning and practising through coursework and personal projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">Py</div>
+          <h3>Python</h3>
+          <p>Programming fundamentals, collections, and problem-solving practice.</p>
+          <span class="skill-tag">Programming</span>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">J</div>
+          <h3>Java</h3>
+          <p>Learning object-oriented programming and core language concepts.</p>
+          <span class="skill-tag">Programming</span>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">C</div>
+          <h3>C / C++</h3>
+          <p>Building logic and understanding core programming concepts.</p>
+          <span class="skill-tag">Programming</span>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">{ }</div>
+          <h3>HTML &amp; CSS</h3>
+          <p>Creating structured pages and responsive layouts with modern CSS.</p>
+          <span class="skill-tag">Web development</span>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">JS</div>
+          <h3>JavaScript</h3>
+          <p>Exploring interactive web pages and beginner-friendly scripting.</p>
+          <span class="skill-tag">Web development</span>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon" aria-hidden="true">Git</div>
+          <h3>Git &amp; GitHub</h3>
+          <p>Practising version control and maintaining project repositories.</p>
+          <span class="skill-tag">Tools</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">A few things I've made</p>
+            <h2 class="section-title" id="projects-title">Featured <span class="accent-text">Projects</span></h2>
+          </div>
+          <p class="section-intro">A selection of practice projects. I update these as I learn and add new features.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual project-visual-blue" aria-hidden="true">
+              <div class="mock-window"><div class="mock-dots"><i></i><i></i><i></i></div><div class="mock-sidebar"></div><div class="mock-content"><b></b><span></span><span></span><div class="mock-table"><i></i><i></i><i></i><i></i></div></div></div>
+              <span class="visual-label">01 / MANAGEMENT</span>
+            </div>
+            <div class="project-info">
+              <div class="project-topline"><span class="project-type">Academic / Practice</span><span class="project-number">01</span></div>
+              <h3>Student Management System</h3>
+              <p>A project focused on organising student-related information and practising core programming concepts.</p>
+              <div class="project-footer"><span class="tech-pill">Programming</span><a class="text-link" href="https://github.com/Pranavraj14259/Student-Management-System" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual project-visual-violet" aria-hidden="true">
+              <div class="expense-ui"><div class="expense-label">TOTAL BALANCE</div><div class="expense-total">₹ 12,450</div><div class="expense-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="expense-legend"><span></span><span></span><span></span></div></div>
+              <span class="visual-label">02 / TRACKING</span>
+            </div>
+            <div class="project-info">
+              <div class="project-topline"><span class="project-type">Personal / Practice</span><span class="project-number">02</span></div>
+              <h3>Personal Expense Tracker</h3>
+              <p>A practice project based on recording expenses and understanding basic personal-finance tracking.</p>
+              <div class="project-footer"><span class="tech-pill">Programming</span><a class="text-link" href="https://github.com/Pranavraj14259/Personal-Expense-Tracker" target="_blank" rel="noopener noreferrer">View on GitHub <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-copy">
+        <p class="section-kicker">Have a question or idea?</p>
+        <h2 class="section-title" id="contact-title">Let's <span class="accent-text">Connect.</span></h2>
+        <p>I'm open to learning opportunities, project discussions, and connecting with people who enjoy building things with technology.</p>
+        <a class="contact-email" href="mailto:pranav14259@gmail.com">pranav14259@gmail.com <span aria-hidden="true">↗</span></a>
+        <a class="github-link" href="https://github.com/Pranavraj14259" target="_blank" rel="noopener noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-heading"><span>Send a message</span><span class="form-star" aria-hidden="true">✳</span></div>
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name" autocomplete="name" required>
+        <label for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+        <button class="button button-primary submit-button" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+        <p class="form-note" id="form-note" aria-live="polite">This form opens your email application; it does not store messages on a server.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#top">PR<span>.</span></a>
+      <p>Designed &amp; built by Pranav Raj.</p>
+      <a class="back-top" href="#top">Back to top ↑</a>
+      <p class="copyright">© <span id="year">2026</span> Pranav Raj. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation: open and close the menu accessibly.
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', String(!isOpen));
+      menuToggle.setAttribute('aria-label', isOpen ? 'Open navigation menu' : 'Close navigation menu');
+      navLinks.classList.toggle('is-open', !isOpen);
+    });
+
+    navLinks.querySelectorAll('a').forEach((link) => {
+      link.addEventListener('click', () => {
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.setAttribute('aria-label', 'Open navigation menu');
+        navLinks.classList.remove('is-open');
+      });
+    });
+
+    // The form uses the visitor's email application; no backend is configured.
+    const contactForm = document.querySelector('#contact-form');
+    const formNote = document.querySelector('#form-note');
+
+    contactForm.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!contactForm.reportValidity()) return;
+
+      const formData = new FormData(contactForm);
+      const name = String(formData.get('name')).trim();
+      const email = String(formData.get('email')).trim();
+      const message = String(formData.get('message')).trim();
+      const subject = encodeURIComponent(`Portfolio message from ${name}`);
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+
+      formNote.textContent = 'Your email application should open with the message prepared.';
+      window.location.href = `mailto:pranav14259@gmail.com?subject=${subject}&body=${body}`;
+    });
+
+    // Keep the copyright year current.
+    document.querySelector('#year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
